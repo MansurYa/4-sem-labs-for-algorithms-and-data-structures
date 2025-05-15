@@ -3,6 +3,9 @@ from graph import Graph
 import random
 
 
+RANDOM_SEED = 0
+
+
 def create_graph(num_nodes, num_edges, canvas_width, canvas_height):
     """
     Создаёт граф с заданным количеством вершин и рёбер
@@ -13,6 +16,8 @@ def create_graph(num_nodes, num_edges, canvas_width, canvas_height):
     :param canvas_height: высота холста
     :return: созданный граф
     """
+    random.seed(RANDOM_SEED)
+
     graph = Graph(directed=True)
 
     cols = int(num_nodes**0.5)
@@ -44,9 +49,11 @@ def create_graph(num_nodes, num_edges, canvas_width, canvas_height):
     return graph
 
 def main():
-    # graph = create_graph(num_nodes=1000, num_edges=240000, canvas_width=678, canvas_height=395)
+    # graph = create_graph(num_nodes=4, num_edges=8, canvas_width=676, canvas_height=300)
     # graph = create_graph(num_nodes=20, num_edges=186, canvas_width=676, canvas_height=300)
-    graph = Graph()
+    # graph = create_graph(num_nodes=100, num_edges=3395, canvas_width=676, canvas_height=300)
+    # graph = create_graph(num_nodes=500, num_edges=100000, canvas_width=676, canvas_height=300)
+    # graph = Graph()
 
     app = LabApp(graph)
     app.attributes('-fullscreen', True)

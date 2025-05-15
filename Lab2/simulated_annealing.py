@@ -89,7 +89,6 @@ def simulated_annealing(
     initial_temp: Optional[float] = None,
     min_temp: float = 1,
     cooling_rate: float = 0.95,
-    max_iterations: Optional[int] = None,
     fast_annealing: bool = False
 ) -> Tuple[Graph, int, str, str]:
     """
@@ -99,7 +98,6 @@ def simulated_annealing(
     :param initial_temp: Начальная температура (автовычисление)
     :param min_temp: Минимальная температура
     :param cooling_rate: Коэффициент охлаждения
-    :param max_iterations: Число итераций (автовычисление)
     :param fast_annealing: Флаг сверхбыстрого отжига
     :return: Граф, длина пути, статус, строка пути
     """

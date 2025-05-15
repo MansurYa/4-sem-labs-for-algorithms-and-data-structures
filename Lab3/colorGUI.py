@@ -72,8 +72,8 @@ class LabApp(tk.Tk):
         param_frame.pack(fill="x", pady=5)
 
         params = [
-            ("Количество муравьёв:", "num_ants", "10"),
-            ("Количество итераций:", "num_iterations", "100"),
+            ("Количество муравьёв:", "num_ants", "100"),
+            ("Количество итераций:", "num_iterations", "300"),
             ("Alpha (феромон):", "alpha", "1.0"),
             ("Beta (эвристика):", "beta", "2.0"),
             ("Rho (испарение):", "rho", "0.1"),
@@ -377,6 +377,7 @@ class LabApp(tk.Tk):
 
     def start_algorithm(self):
         """Запуск муравьиного алгоритма"""
+        print("start")
         try:
             params = {
                 'use_template': self.use_template_var.get(),

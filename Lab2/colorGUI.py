@@ -423,6 +423,7 @@ class LabApp(tk.Tk):
             return
 
         try:
+            print("start")
             start_time = time.time()  # Начало замера времени
             result = simulated_annealing(
                 self.graph,
