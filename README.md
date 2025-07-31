@@ -1,7 +1,5 @@
 # Лабораторные работы по алгоритмам (4 семестр)
 
-> Научно-исследовательский цикл из 5 экспериментальных работ с полным анализом результатов
-
 ## Обзор работ
 
 | Этап | Лабораторная | Ключевые алгоритмы | Сложность | Результат |
@@ -40,8 +38,8 @@ def modified_neighbor(graph):
 
 **Вывод**: Перебор стартовых вершин гарантирует решение для графов с 500+ вершинами
 
-![Lab1 GUI](https://example.com/lab1_screenshot.jpg)
-> Скриншот работы программы для графа из 20 вершин
+![Lab1 GUI]([https://example.com/lab1_screenshot.jpg](https://github.com/MansurYa/4-sem-labs-for-algorithms-and-data-structures/blob/main/images/lab1_gui.png))
+> Скриншот работы программы для графа из 4 вершин
 
 ---
 
@@ -69,8 +67,8 @@ def modified_neighbor(graph):
 
 **Вывод**: Сверхбыстрый режим применим для приближённых решений в реальном времени
 
-![Lab2 GUI](https://example.com/lab2_screenshot.jpg)
-> Интерфейс управления параметрами отжига
+![Lab2 GUI]([https://example.com/lab2_screenshot.jpg](https://github.com/MansurYa/4-sem-labs-for-algorithms-and-data-structures/blob/main/images/lab2_gui.png))
+> Скриншот работы программы для графа из 100 вершин
 
 ---
 
@@ -98,8 +96,8 @@ def modified_neighbor(graph):
 
 **Вывод**: Шаблоны значительно снижают время вычислений
 
-![Lab3 GUI](https://example.com/lab3_screenshot.jpg)
-> Визуализация работы муравьиного алгоритма
+![Lab3 GUI]([https://example.com/lab3_screenshot.jpg](https://github.com/MansurYa/4-sem-labs-for-algorithms-and-data-structures/blob/main/images/lab3_gui.png))
+> Скриншот работы программы для графа из 500 вершин
 
 ---
 
@@ -129,9 +127,6 @@ C --> D[Оценка погрешности]
 
 **Вывод**: Стохастическая регрессия наиболее устойчива для неоднородных данных
 
-![Lab4 GUI](https://example.com/lab4_screenshot.jpg)
-> Интерфейс управления параметрами обработки пропусков
-
 ---
 
 ## Lab5: Односвязывающая кластеризация
@@ -160,8 +155,11 @@ d = max(|x_i - y_i|)
 
 **Вывод**: Односвязывающий метод неэффективен для данных без кластерных границ
 
-![Lab5 GUI](https://example.com/lab5_screenshot.jpg)
-> Визуализация кластеризации результатов
+![Lab5 GUI]([https://example.com/lab5_screenshot.jpg](https://github.com/MansurYa/4-sem-labs-for-algorithms-and-data-structures/blob/main/images/lab5_gui.png))
+> Скриншот интерфейса программы
+
+![Lab5 GUI]([https://example.com/lab5_screenshot.jpg](https://github.com/MansurYa/4-sem-labs-for-algorithms-and-data-structures/blob/main/images/claster.png))
+> Визуализация кластеризации
 
 ---
 
